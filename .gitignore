@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Raw Source Materials & Working Dumps
+Neuer Ordner/
+Zeitung/
+konnte nur 1000 zeitungsartikel von insgesamt 1300 zu pdf/
+*.pdf
+extract_all_zeitung.py

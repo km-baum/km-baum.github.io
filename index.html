@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krügermeyer – Familienchronik &amp; Interaktiver Stammbaum (1775–Heute)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ====================================================================
+       SITE HEADER
+       ==================================================================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="brand" id="brand-home-link">
+        <div class="brand-crest" aria-hidden="true">KM</div>
+        <div class="brand-text">
+          <div class="brand-title">Krüger<span>meyer</span></div>
+          <div class="brand-subtitle">Familienchronik &amp; Stammbaum · Seit 1775</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <button class="nav-tab active" data-view="tree">
+          <span>🌳</span> Stammbaum
+        </button>
+        <button class="nav-tab" data-view="chronicle">
+          <span>📜</span> Familienchronik
+        </button>
+        <button class="nav-tab" data-view="people">
+          <span>👥</span> Personen (<span id="nav-people-count">80</span>)
+        </button>
+        <button class="nav-tab" data-view="photos">
+          <span>📸</span> Fotoalbum
+        </button>
+        <button class="nav-tab" data-view="archive">
+          <span>📰</span> Urkunden &amp; Zeitungen
+        </button>
+        <button class="nav-tab" data-view="places">
+          <span>🗺️</span> Orte
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            id="global-search-input"
+            class="search-input"
+            placeholder="Name, Ort oder Jahr suchen..."
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====================================================================
+       HERO BANNER
+       ==================================================================== -->
+  <section class="hero-banner">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow">✦ Historisches Familienarchiv Krügermeyer · 7 Generationen (1775 – Gegenwart)</div>
+        <h1 class="hero-title">Von den lippischen Wurzeln in Lemgo &amp; Heiden über Bremen bis in die Gegenwart</h1>
+        <p class="hero-description">
+          Willkommen im digitalen Familienarchiv <strong>Krügermeyer</strong>. Entdecke unsere über 250-jährige Familiengeschichte – von den ältesten Kirchenbucheinträgen in St. Nicolai zu Lemgo (1775/1801) und der Gründung von <em>„Ernst Krügermeyer &amp; Co. Bremen“</em> (1886) bis zur 7. Generation heute in Bremen. Klicke auf eine Person, um ihre Lebensgeschichte, Fotos, Verwandtschaftsverbindungen und Originalzitate zu öffnen.
+        </p>
+        <div class="hero-quick-actions">
+          <button class="btn-hero-primary" id="btn-hero-direct-line">
+            ★ Unsere direkte Stammlinie (7 Generationen)
+          </button>
+          <button class="btn-hero-secondary" id="btn-hero-open-chronicle">
+            📜 Ausformulierte Familienchronik lesen
+          </button>
+          <button class="btn-hero-secondary" id="btn-hero-open-photos">
+            📸 Historisches Fotoalbum (18 Aufnahmen)
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card stat-card-highlight">
+          <div class="stat-value">7 Gen.</div>
+          <div class="stat-label">Lückenlose direkte Stammlinie (1775–Heute)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-people-count">80</div>
+          <div class="stat-label">Dokumentierte Personen &amp; Vorfahren</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-sources-count">115+</div>
+          <div class="stat-label">Urkunden, Kirchenbücher &amp; Zeitungsartikel</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">18 Fotos</div>
+          <div class="stat-label">Aufbereitete historische Familienaufnahmen</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       MAIN CONTENT AREA
+       ==================================================================== -->
+  <main class="main-container">
+
+    <!-- 1. INTERACTIVE FAMILY TREE VIEW -->
+    <section id="view-tree" class="view-section active">
+
+      <!-- Interactive 7-Generation Direct Lineage Compass -->
+      <div class="lineage-stepper-card">
+        <div class="lineage-stepper-header">
+          <div>
+            <span class="lineage-badge">★ Roter Faden</span>
+            <strong>Unsere direkte Stammlinie durch 7 Generationen</strong>
+            <span class="lineage-hint">(Klicke auf eine Generation, um im Stammbaum dorthin zu springen)</span>
+          </div>
+          <button class="btn-control btn-sm" id="btn-focus-noah" title="Zur 7. Generation springen">
+            🎯 Zur Gegenwart (7. Gen.)
+          </button>
+        </div>
+        <div class="lineage-stepper-track" id="lineage-stepper-track">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Branch Filter & Controls Toolbar -->
+      <div class="tree-toolbar">
+        <div class="branch-filter-wrapper">
+          <div id="branch-filter-list" class="branch-filter-list">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+
+        <div class="tree-controls">
+          <button class="btn-control" id="btn-zoom-in" title="Vergrößern">＋</button>
+          <span class="zoom-level-indicator" id="zoom-level-indicator">85%</span>
+          <button class="btn-control" id="btn-zoom-out" title="Verkleinern">－</button>
+          <button class="btn-control" id="btn-zoom-reset" title="Ansicht optimal einpassen">⟲ Einpassen</button>
+          <button class="btn-control" id="btn-tree-fullscreen" title="Vollbild-Modus umschalten">⛶ Vollbild</button>
+        </div>
+      </div>
+
+      <!-- Active Branch Context Banner -->
+      <div id="active-branch-banner" class="active-branch-banner">
+        <!-- Populated dynamically by app.js -->
+      </div>
+
+      <!-- Interactive Tree Viewport -->
+      <div id="tree-viewport" class="tree-viewport">
+        <div id="tree-canvas" class="tree-canvas">
+          <div id="tree-bands-layer" class="tree-bands-layer"></div>
+          <svg id="tree-svg-layer" class="tree-svg-layer"></svg>
+          <div id="tree-nodes-container"></div>
+        </div>
+      </div>
+
+      <div class="tree-legend">
+        <div class="legend-items">
+          <span class="legend-item"><span class="legend-dot direct"></span> <strong>Goldener Rahmen:</strong> Direkte Vorfahren &amp; Kernfamilie</span>
+          <span class="legend-item"><strong>🖱️ Ziehen / Touch:</strong> Stammbaum bewegen</span>
+          <span class="legend-item"><strong>🔍 Mausrad:</strong> Zoomen</span>
+          <span class="legend-item"><strong>👆 Klick auf Karte:</strong> Vollständige Chronik, Fotos &amp; Urkunden öffnen</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. EDITORIAL FAMILY CHRONICLE VIEW (1775–TODAY) -->
+    <section id="view-chronicle" class="view-section">
+      <div class="chronicle-container" id="chronicle-container">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 3. PEOPLE & BIOGRAPHIES GRID VIEW -->
+    <section id="view-people" class="view-section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Alle Familienmitglieder &amp; Biografien</h2>
+          <p class="section-subtitle">
+            Alle 80 dokumentierten Personen mit ausgearbeiteten Lebensgeschichten. Nutze die Filterleiste, um zwischen unserer direkten Stammlinie und den historischen lippischen Seitenlinien zu wechseln.
+          </p>
+        </div>
+        <div id="people-branch-Subfilter" class="branch-filter-list"></div>
+      </div>
+      <div id="people-grid" class="people-grid"></div>
+    </section>
+
+    <!-- 4. FAMILY PHOTOS & HISTORICAL ALBUM VIEW -->
+    <section id="view-photos" class="view-section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Historisches Familienalbum &amp; Fotografien</h2>
+          <p class="section-subtitle">
+            Aufbereitete Originalfotografien aus dem Familienbesitz (1939 bis 1970er-Jahre). Klicke auf ein Bild für die Großansicht oder auf einen Namen, um direkt zur Chronik der abgebildeten Person zu springen.
+          </p>
+        </div>
+      </div>
+      <div id="photos-grid" class="gallery-grid gallery-grid-large"></div>
+    </section>
+
+    <!-- 5. ARCHIVE, NEWSPAPER ARTICLES & SOURCES VIEW -->
+    <section id="view-archive" class="view-section">
+      <div class="archive-banner">
+        <div>
+          <h2 class="section-title" style="margin-bottom:0.3rem;">Historisches Zeitungsarchiv &amp; Originalquellen (1.000+ Artikel &amp; Scans)</h2>
+          <p class="section-subtitle">
+            Authentische lippische, bremische und überregionale Zeitungsartikel (1814–1950) aus der <em>Lippischen Tageszeitung</em>, der <em>Lippischen Landes-Zeitung</em>, der <em>Lippischen Post</em>, den <em>Bremer Nachrichten</em> und dem <em>Reichsanzeiger</em>. Vollständig erfasst mit Bildausschnitten, Transkriptionen und Originalquellen-Verweisen.
+          </p>
+        </div>
+      </div>
+
+      <!-- Archive Toolbar -->
+      <div class="archive-toolbar">
+        <div class="archive-search-row">
+          <div class="archive-search-wrap">
+            <svg class="archive-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="search"
+              id="archive-search-input"
+              class="archive-search-input"
+              placeholder="Artikel durchsuchen (z. B. Henriette, Saatgut, Seboral, Lage, 1906, Sterbefall)..."
+            />
+          </div>
+        </div>
+
+        <div class="archive-filter-chips" id="archive-category-chips">
+          <!-- Populated dynamically by app.js -->
+        </div>
+
+        <div class="archive-meta-bar">
+          <span id="archive-count-badge" class="archive-count-badge">1.000 Artikel geladen</span>
+          <div class="archive-sort-wrap">
+            <label for="archive-sort-select">Sortierung:</label>
+            <select id="archive-sort-select" class="archive-sort-select">
+              <option value="chronological">Chronologisch (Älteste zuerst)</option>
+              <option value="newest">Neueste zuerst</option>
+              <option value="matched">Nur Personen-Zugeordnete</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="archive-grid" class="archive-grid"></div>
+
+      <div id="archive-load-more-container" style="text-align:center; padding: 2rem 0; display:none;">
+        <button id="btn-archive-load-more" class="btn-control" style="padding: 0.75rem 2.2rem; font-size:0.95rem; font-weight:600; cursor:pointer;">
+          📜 Weitere Artikel laden (+48)
+        </button>
+      </div>
+    </section>
+
+    <!-- 6. PLACES & GEOGRAPHIC ORIGINS VIEW -->
+    <section id="view-places" class="view-section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Historische Orte &amp; Lebensstationen</h2>
+          <p class="section-subtitle">
+            Vom historischen Fürstentum Lippe (Lemgo, Heiden, Lage, Hillentrup, Hohenhausen, Detmold) über Bremen, Hannover, Köln, Hamburg, Berlin und Wien bis nach Dänemark, den Balearen (Ferienhäuser der Großeltern auf Mallorca &amp; Formentera) und in die USA.
+          </p>
+        </div>
+      </div>
+      <div id="places-grid" class="places-grid"></div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       PERSON DOSSIER MODAL
+       ==================================================================== -->
+  <div id="person-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div id="person-modal-content" class="dossier-modal">
+      <!-- Populated dynamically by app.js when a person is clicked -->
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       LIGHTBOX MODAL FOR FULL-SIZE PHOTOS
+       ==================================================================== -->
+  <div id="lightbox-backdrop" class="lightbox-backdrop" role="dialog" aria-modal="true">
+    <div class="lightbox-content-card">
+      <button class="lightbox-close" id="btn-close-lightbox" title="Schließen">✕</button>
+      <div class="lightbox-img-container">
+        <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+      </div>
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       FOOTER
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Krüger<span>meyer</span> · Familienchronik &amp; Stammbaum</div>
+        <p class="footer-sub">Dokumentiert aus Kirchenbüchern, Standesamtsregistern, Zeitungsarchiven und Familienalben (1775–Gegenwart)</p>
+      </div>
+      <div class="footer-actions">
+        <button class="btn-control" id="btn-export-data" title="Eigene eingerichtete Fotos und Notizen als Backup-Datei herunterladen">
+          💾 Eigene Fotos &amp; Notizen sichern
+        </button>
+        <label class="btn-control" style="cursor:pointer;" title="Gesicherte Backup-Datei wieder einspielen">
+          📂 Backup laden
+          <input type="file" id="input-import-data" accept=".json" style="display:none;" />
+        </label>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="newspaper_articles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
