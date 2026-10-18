@@ -330,8 +330,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-21",
     "num": 21,
-    "title": "Todesanzeige / Traueranzeige (21. APR. 1898)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Kleinanzeige: Heu und Stroh abzugeben (21. APR. 1898)",
+    "category": "Immobilien, Versteigerungen & Anzeigen",
     "date": "21. APR. 1898",
     "year": 1898,
     "newspaper": "Lippische Post",
@@ -674,8 +674,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-42",
     "num": 42,
-    "title": "Familienanzeige Krügermeyer · Lippische Tageszeitung",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Landhandel S. A. Krügermeyer: Hafer, Wicken & Lupinen (20. APR. 1918)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "20. APR. 1918",
     "year": 1918,
     "newspaper": "Lippische Tageszeitung",
@@ -1197,8 +1197,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-73",
     "num": 73,
-    "title": "Todesanzeige / Traueranzeige (1. AUG. 1926)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Saatwicken (1. AUG. 1926)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "1. AUG. 1926",
     "year": 1926,
     "newspaper": "Lippische Tageszeitung",
@@ -2288,8 +2288,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-139",
     "num": 139,
-    "title": "Todesanzeige / Traueranzeige (28. SEPT. 1930)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Saatroggen (28. SEPT. 1930)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "28. SEPT. 1930",
     "year": 1930,
     "newspaper": "Lippische Tageszeitung",
@@ -2298,7 +2298,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0139.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-140",
@@ -2782,8 +2784,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-170",
     "num": 170,
-    "title": "Todesanzeige / Traueranzeige (3. AUG. 1914)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Kaufmann S. A. Krügermeyer: Stellenangebot (3. AUG. 1914)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "3. AUG. 1914",
     "year": 1914,
     "newspaper": "Lippische Tageszeitung",
@@ -3390,8 +3392,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-208",
     "num": 208,
-    "title": "Todesanzeige / Traueranzeige (24. SEPT. 1920)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Saatweizen (24. SEPT. 1920)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "24. SEPT. 1920",
     "year": 1920,
     "newspaper": "Lippische Tageszeitung",
@@ -4517,8 +4519,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-277",
     "num": 277,
-    "title": "Todesanzeige / Traueranzeige (22. AUG. 1895)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Kleinanzeige: Vermietung & Schneiderlehre (22. AUG. 1895)",
+    "category": "Immobilien, Versteigerungen & Anzeigen",
     "date": "22. AUG. 1895",
     "year": 1895,
     "newspaper": "Lippische Landes-Zeitung",
@@ -4596,8 +4598,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-282",
     "num": 282,
-    "title": "Todesanzeige / Traueranzeige (10. JUL. 1900)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Stadtverordneten-Versammlung Lemgo (10. JUL. 1900)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "10. JUL. 1900",
     "year": 1900,
     "newspaper": "Lippische Landes-Zeitung",
@@ -5000,8 +5002,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-307",
     "num": 307,
-    "title": "Familienanzeige Krügermeyer · Lippische Post",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Kleinanzeige: Klee-Verkauf (27. MAI 1909)",
+    "category": "Immobilien, Versteigerungen & Anzeigen",
     "date": "27. MAI 1909",
     "year": 1909,
     "newspaper": "Lippische Post",
@@ -6078,8 +6080,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-373",
     "num": 373,
-    "title": "Todesanzeige / Traueranzeige (16. JUL. 1917)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Kaufmann S. A. Krügermeyer: Stellenangebot (16. JUL. 1917)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "16. JUL. 1917",
     "year": 1917,
     "newspaper": "Lippische Post",
@@ -6319,8 +6321,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-388",
     "num": 388,
-    "title": "Todesanzeige / Traueranzeige (30. APR. 1913)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Verkaufsanzeige: Runkelrüben bei H. Krügermeyer (30. APR. 1913)",
+    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
     "date": "30. APR. 1913",
     "year": 1913,
     "newspaper": "Lippische Post",
@@ -6773,8 +6775,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-416",
     "num": 416,
-    "title": "Familienanzeige Krügermeyer · Lippische Landes-Zeitung",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Historische Zeitungschronik (2. MRZ. 1886)",
+    "category": "Historische Zeitungschronik",
     "date": "2. MRZ. 1886",
     "year": 1886,
     "newspaper": "Lippische Landes-Zeitung",
@@ -6968,8 +6970,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-428",
     "num": 428,
-    "title": "Todesanzeige / Traueranzeige (2. MAI 1903)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Kleinanzeige: Frische Milch, Bohnen & Setzlinge bei H. Krügermeyer am Wall (2. MAI 1903)",
+    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
     "date": "2. MAI 1903",
     "year": 1903,
     "newspaper": "Lippische Post",
@@ -6978,7 +6980,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0428.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "heinrich-kruegermeyer-jun-1863"
+    ]
   },
   {
     "id": "art-429",
@@ -9535,8 +9539,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-587",
     "num": 587,
-    "title": "Todesanzeige / Traueranzeige (18. MRZ. 1902)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Stadtverordneten-Versammlung Lemgo (18. MRZ. 1902)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "18. MRZ. 1902",
     "year": 1902,
     "newspaper": "Lippische Landes-Zeitung",
@@ -13664,8 +13668,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-841",
     "num": 841,
-    "title": "Familienanzeige Krügermeyer · Lippische Tageszeitung",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "S. A. Krügermeyer: Stuten-Versicherungsschutz (5. OKT. 1919)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "5. OKT. 1919",
     "year": 1919,
     "newspaper": "Lippische Tageszeitung",
@@ -14009,7 +14013,7 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-862",
     "num": 862,
-    "title": "Todesanzeige / Traueranzeige (21. MRZ. 1923)",
+    "title": "Nachruf auf Kaufmann August Krügermeyer in der Stadtverordneten-Versammlung Lage (21. MRZ. 1923)",
     "category": "Todesanzeige & Nachruf",
     "date": "21. MRZ. 1923",
     "year": 1923,
@@ -14494,8 +14498,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-892",
     "num": 892,
-    "title": "Todesanzeige / Traueranzeige (28. OKT. 1915)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Gefallenenmeldung im Weltkrieg: Unteroffizier Erich Krügermeyer (28. OKT. 1915)",
+    "category": "Militär, Auszeichnungen & Verlustlisten",
     "date": "28. OKT. 1915",
     "year": 1915,
     "newspaper": "Lippische Landes-Zeitung",
@@ -14505,7 +14509,7 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
     "personIds": [
-      "erich-kruegermeyer-1895"
+      "simon-wilhelm-erich-heinrich-kruegermeyer-1895"
     ]
   },
   {
@@ -15382,8 +15386,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-947",
     "num": 947,
-    "title": "Todesanzeige / Traueranzeige (12. JUN. 1911)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Wirtschaftsbericht: Konservenfabrik-Pläne mit Kaufmann S. A. Krügermeyer (12. JUN. 1911)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "12. JUN. 1911",
     "year": 1911,
     "newspaper": "Lippische Post",
