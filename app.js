@@ -2197,6 +2197,59 @@
 
     // Auto-fit direct line into the viewport on load
     setTimeout(() => fitTreeToViewport(), 40);
+
+    // Initialize Privacy Lockscreen
+    initLockscreen();
+  }
+
+  function initLockscreen() {
+    const lockscreen = document.getElementById("lockscreen");
+    const form = document.getElementById("lockscreen-form");
+    const input = document.getElementById("lockscreen-input");
+    const errorMsg = document.getElementById("lockscreen-error");
+    const toggleBtn = document.getElementById("btn-toggle-pwd");
+
+    if (!lockscreen || !input) return;
+
+    // Autofocus input
+    setTimeout(() => {
+      input.focus();
+    }, 150);
+
+    function unlock() {
+      const val = (input.value || "").trim().toLowerCase();
+      if (val === "km") {
+        if (errorMsg) errorMsg.style.display = "none";
+        input.classList.remove("error");
+        lockscreen.classList.add("unlocked");
+        document.body.classList.remove("is-locked");
+        // Re-calculate tree bounding box now that viewport is visible
+        setTimeout(() => fitTreeToViewport(), 120);
+      } else {
+        if (errorMsg) errorMsg.style.display = "block";
+        input.classList.add("error");
+        input.select();
+        setTimeout(() => {
+          input.classList.remove("error");
+        }, 500);
+      }
+    }
+
+    form?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      unlock();
+    });
+
+    toggleBtn?.addEventListener("click", () => {
+      if (input.type === "password") {
+        input.type = "text";
+        toggleBtn.textContent = "🙈";
+      } else {
+        input.type = "password";
+        toggleBtn.textContent = "👁️";
+      }
+      input.focus();
+    });
   }
 
   if (document.readyState === "loading") {

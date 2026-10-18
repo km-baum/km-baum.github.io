@@ -2215,6 +2215,199 @@ body {
   }
 }
 
+/* ==========================================================================
+   PRIVACY LOCKSCREEN (PASSWORT-SCHUTZ)
+   ========================================================================== */
+
+body.is-locked {
+  overflow: hidden !important;
+}
+
+body.is-locked .site-header,
+body.is-locked .hero-banner,
+body.is-locked .main-container,
+body.is-locked .site-footer {
+  filter: blur(14px);
+  pointer-events: none !important;
+  user-select: none !important;
+  opacity: 0.08;
+  transition: filter 0.4s ease, opacity 0.4s ease;
+}
+
+.lockscreen-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  background: radial-gradient(circle at 50% 35%, #FBF8F1 0%, #E7E0D0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.45s ease;
+}
+
+.lockscreen-overlay.unlocked {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.lockscreen-card {
+  width: 100%;
+  max-width: 440px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--accent-gold-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 25px 65px -12px rgba(22, 28, 36, 0.25), 0 8px 24px -4px rgba(22, 28, 36, 0.08);
+  padding: 2.6rem 2.25rem 2.25rem;
+  text-align: center;
+  position: relative;
+  animation: lockCardIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes lockCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(22px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.lockscreen-crest {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+
+.lockscreen-crest svg {
+  width: 72px;
+  height: 65px;
+  filter: drop-shadow(0 4px 12px rgba(170, 124, 30, 0.32));
+}
+
+.lockscreen-title {
+  font-family: var(--font-altdeutsch);
+  font-size: 2.85rem;
+  font-weight: 400;
+  color: var(--ink-primary);
+  line-height: 1.05;
+  margin-bottom: 0.2rem;
+}
+
+.lockscreen-subtitle {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.15rem;
+}
+
+.lockscreen-desc {
+  font-size: 0.88rem;
+  color: var(--ink-secondary);
+  line-height: 1.55;
+  margin-bottom: 1.45rem;
+}
+
+.lockscreen-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.lockscreen-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lockscreen-input {
+  width: 100%;
+  padding: 0.85rem 3rem 0.85rem 1.15rem;
+  font-size: 1.15rem;
+  font-family: var(--font-sans);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  color: var(--ink-primary);
+  text-align: center;
+  letter-spacing: 0.12em;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.lockscreen-input:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3.5px rgba(170, 124, 30, 0.2);
+}
+
+.lockscreen-input.error {
+  border-color: var(--accent-burgundy);
+  animation: lockShake 0.4s ease;
+  box-shadow: 0 0 0 3.5px rgba(142, 59, 51, 0.2);
+}
+
+@keyframes lockShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+.btn-toggle-pwd {
+  position: absolute;
+  right: 0.85rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: var(--ink-muted);
+  padding: 0.25rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.btn-toggle-pwd:hover {
+  opacity: 1;
+}
+
+.lockscreen-error {
+  font-size: 0.82rem;
+  color: var(--accent-burgundy);
+  font-weight: 600;
+  margin-top: -0.25rem;
+}
+
+.btn-lockscreen-submit {
+  padding: 0.85rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: linear-gradient(135deg, var(--accent-burgundy) 0%, #682620 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(142, 59, 51, 0.32);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+.btn-lockscreen-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(142, 59, 51, 0.42);
+  filter: brightness(1.08);
+}
+
+.btn-lockscreen-submit:active {
+  transform: translateY(1px);
+}
+
 @media print {
   .site-header,
   .hero-banner,
