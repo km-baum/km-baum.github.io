@@ -192,6 +192,14 @@ window.KRUEGERMEYER_DATA = {
       count: 6,
       description:
         "In Manhattan, New York City, verstarb am 12. Juni 1906 Henry Bush (* 1857 in Deutschland), Sohn von Henry Bush d. Ä. und Alina geb. Krugermeyer. In Rocky Ridge / Oak Harbor (Ottawa County, Ohio) lebten 1923 Mr. & Mrs. Krugermeyer mit ihrer Tochter Miss Elisabeth (Elizabeth) Krugermeyer. Zudem lebte Grete Dittmer geb. Krügermeyer aus Bremen (Schwester von Urgroßvater Herbert Gustav) von 1923 bis 1925 in New York City."
+    },
+    {
+      name: "Warschau (Polen)",
+      region: "Republik Polen / Masowien",
+      period: "Gegenwart",
+      count: 1,
+      description:
+        "Geburtsort von Lidia Krügermeyer, der Ehefrau von Aike-Kristian Krügermeyer und Stiefmutter von Noah-Elias und Leon-Bennet Krügermeyer."
     }
   ],
 
@@ -1959,15 +1967,18 @@ window.KRUEGERMEYER_DATA = {
       tags: [
         "* in Hannover",
         "Vater von Noah-Elias & Leon-Bennet",
+        "⚭ Lidia Krügermeyer (geb. in Warschau)",
+        "Elternschaft mit Claudia (getrennt)",
         "Sohn von Gerd & Vera-Theresia",
         "Bruder von Lars Krügermeyer",
         "Enkel von Herbert & Christel"
       ],
       shortSummary:
-        "Vater von Noah-Elias Krügermeyer und Leon-Bennet Krügermeyer (* in Hannover). Sohn von Gerd Krügermeyer und Vera-Theresia Krügermeyer, Bruder von Lars Krügermeyer (* in Köln), Enkel von Herbert Gustav und Christel Krügermeyer sowie Urenkel des Bremer Firmengründers Ernst Simon Krügermeyer (1859–1949).",
+        "Vater von Noah-Elias Krügermeyer und Leon-Bennet Krügermeyer (* in Hannover). Sohn von Gerd Krügermeyer und Vera-Theresia Krügermeyer, verheiratet mit Lidia Krügermeyer (* in Warschau), Bruder von Lars Krügermeyer (* in Köln), Enkel von Herbert Gustav und Christel Krügermeyer sowie Urenkel des Bremer Firmengründers Ernst Simon Krügermeyer (1859–1949).",
       biography: `
         <p><strong>Aike-Kristian Krügermeyer</strong> wurde in <strong>Hannover</strong> als Sohn von <strong>Gerd Krügermeyer</strong> und <strong>Vera-Theresia Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Lars Krügermeyer</strong> (* in Köln) und der Enkel von <strong>Herbert Gustav Krügermeyer</strong> (1907–1998) und <strong>Frau Christel Krügermeyer</strong>.</p>
-        <p>Gemeinsam mit <strong>Claudia Krügermeyer (geb. Hentschel)</strong> – von der er getrennt lebt – ist er der Vater der beiden in <strong>Bremen</strong> geborenen Söhne <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
+        <p>Aus der früheren Partnerschaft mit <strong>Claudia Krügermeyer (geb. Hentschel)</strong> – von der er getrennt lebt – gingen die beiden in <strong>Bremen</strong> geborenen Söhne <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong> hervor.</p>
+        <p>Heute ist Aike-Kristian Krügermeyer verheiratet mit seiner Ehefrau <strong>Lidia Krügermeyer</strong>, die in <strong>Warschau (Polen)</strong> geboren wurde und die Stiefmutter von Noah-Elias und Leon-Bennet ist.</p>
         <p>Beruflich wirkt er im norddeutschen Raum (Bremen / Hamburg) im leitenden Vertriebsmanagement (u. a. als Regional Sales Manager). In direkter väterlicher Linie setzt er die seit über 225 Jahren dokumentierte Tradition der Familie von Lemgo (Johann Christoph Krügermeyer 1801, Henrich Christoph Krügermeyer 1813–1887) über Bremen (Ernst Simon Krügermeyer 1859–1949) bis in die Gegenwart fort.</p>
       `,
       events: [
@@ -1982,13 +1993,64 @@ window.KRUEGERMEYER_DATA = {
           title: "Geburt der Söhne Noah-Elias und Leon-Bennet Krügermeyer in Bremen",
           place: "Bremen",
           description: "Gemeinsame Söhne mit Claudia Krügermeyer (geb. Hentschel)."
+        },
+        {
+          date: "Ehe",
+          title: "Ehe mit Lidia Krügermeyer (geb. in Warschau)",
+          place: "Deutschland",
+          description: "Ehefrau Lidia Krügermeyer (* in Warschau), Stiefmutter von Noah-Elias und Leon-Bennet Krügermeyer."
         }
       ],
       sources: [
         {
           type: "Direkte Familienchronik",
-          title: "Stammlinie Herbert & Christel → Gerd & Vera-Theresia → Aike-Kristian & Claudia → Noah-Elias & Leon-Bennet Krügermeyer",
-          detail: "Aike-Kristian Krügermeyer (* in Hannover), Sohn von Gerd und Vera-Theresia Krügermeyer, Bruder von Lars Krügermeyer, Vater von Noah-Elias und Leon-Bennet Krügermeyer."
+          title: "Stammlinie Herbert & Christel → Gerd & Vera-Theresia → Aike-Kristian & Claudia / Lidia → Noah-Elias & Leon-Bennet Krügermeyer",
+          detail: "Aike-Kristian Krügermeyer (* in Hannover), Sohn von Gerd und Vera-Theresia Krügermeyer, Ehemann von Lidia Krügermeyer (* in Warschau), Vater von Noah-Elias und Leon-Bennet Krügermeyer."
+        }
+      ]
+    },
+    {
+      id: "lidia-kruegermeyer",
+      firstName: "Lidia",
+      lastName: "Krügermeyer",
+      displayName: "Lidia Krügermeyer (Stiefmutter · geb. in Warschau)",
+      gender: "female",
+      generation: 6,
+      branchId: "bremen",
+      birthPlace: "Warschau (Polen)",
+      primaryLocation: "Bremen / Warschau",
+      photo: null,
+      tags: [
+        "Stiefmutter von Noah-Elias & Leon-Bennet",
+        "⚭ Aike-Kristian Krügermeyer",
+        "Geboren in Warschau (Polen)",
+        "Familienname Krügermeyer"
+      ],
+      shortSummary:
+        "Ehefrau von Aike-Kristian Krügermeyer und Stiefmutter von Noah-Elias Krügermeyer und Leon-Bennet Krügermeyer. Geboren in Warschau (Polen).",
+      biography: `
+        <p><strong>Lidia Krügermeyer</strong> ist die <strong>Ehefrau</strong> von <strong>Aike-Kristian Krügermeyer</strong> und die <strong>Stiefmutter</strong> von <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
+        <p>Sie wurde in der polnischen Hauptstadt <strong>Warschau</strong> geboren und bringt eine weitere europäische Lebensstation in die weitverzweigte Geschichte der Familie Krügermeyer ein.</p>
+      `,
+      events: [
+        {
+          date: "Geburt",
+          title: "Geboren in Warschau",
+          place: "Warschau (Polen)",
+          description: "Geburtsort Warschau, Republik Polen."
+        },
+        {
+          date: "Ehe & Familie",
+          title: "Ehe mit Aike-Kristian Krügermeyer",
+          place: "Deutschland",
+          description: "Ehefrau von Aike-Kristian Krügermeyer; Stiefmutter von Noah-Elias und Leon-Bennet Krügermeyer."
+        }
+      ],
+      sources: [
+        {
+          type: "Familieneintrag",
+          title: "Familienchronik Krügermeyer",
+          detail: "Lidia Krügermeyer, geboren in Warschau (Polen), Ehefrau von Aike-Kristian Krügermeyer, Stiefmutter von Noah-Elias Krügermeyer."
         }
       ]
     },
@@ -2259,17 +2321,18 @@ window.KRUEGERMEYER_DATA = {
         "7. Generation",
         "Bruder von Leon-Bennet",
         "Sohn von Aike-Kristian & Claudia",
+        "Stiefsohn von Lidia Krügermeyer",
         "Cousin von Luca & Lino Valentino",
         "Enkel von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Geboren in Bremen. Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Bruder von Leon-Bennet Krügermeyer (* in Bremen), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer, Enkel von Gerd und Vera-Theresia Krügermeyer sowie Urenkel von Herbert Gustav (1907–1998) und Christel Krügermeyer.",
+        "Geboren in Bremen. Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Bruder von Leon-Bennet Krügermeyer (* in Bremen), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer, Enkel von Gerd und Vera-Theresia Krügermeyer sowie Urenkel von Herbert Gustav (1907–1998) und Christel Krügermeyer.",
       biography: `
         <p><strong>Noah-Elias Krügermeyer</strong> wurde in der Hansestadt <strong>Bremen</strong> geboren – genau dort, wo bereits 1886 sein Ururgroßvater Ernst Simon Krügermeyer die Firma <em>„Ernst Krügermeyer & Co. Bremen“</em> gründete und wo 1907 sein Urgroßvater Herbert Gustav Krügermeyer zur Welt kam. Er bildet gemeinsam mit seinem Bruder <strong>Leon-Bennet Krügermeyer</strong> und seinen beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> die <strong>7. dokumentierte Generation</strong> unserer durchgehenden Stammlinie und hat dieses digitale Familienarchiv ins Leben gerufen.</p>
         <p><strong>Seine direkte Stammreihe im Überblick:</strong></p>
         <ul>
           <li><strong>Bruder & Cousins (7. Generation, alle * in Bremen):</strong> Bruder von <strong>Leon-Bennet Krügermeyer</strong> sowie Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong>.</li>
-          <li><strong>Eltern, Onkel & Tante (6. Generation):</strong> Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong> sowie Neffe von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong>.</li>
+          <li><strong>Eltern, Stiefmutter, Onkel & Tante (6. Generation):</strong> Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong>, Stiefsohn von <strong>Lidia Krügermeyer</strong> (* in Warschau) sowie Neffe von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong>.</li>
           <li><strong>Großeltern & Großonkel (5. Generation):</strong> Enkel von <strong>Gerd Krügermeyer</strong> und <strong>Vera-Theresia Krügermeyer</strong> (sowie Großneffe des Hamburger Meteorologen <strong>Dr. Lutz Krügermeyer</strong>).</li>
           <li><strong>Urgroßeltern (4. Generation):</strong> Urenkel von <strong>Herbert „Herbie“ Gustav Krügermeyer</strong> (* 06.11.1907 in Bremen als Zwillingsbruder von Ernst Otto, † 1998 in Bremen) und <strong>Frau Christel Krügermeyer</strong> (⚭ Nov. 1939 in Berlin-Prenzlauer Berg).</li>
           <li><strong>Ururgroßeltern (3. Generation):</strong> Ururenkel von <strong>Ernst Simon Krügermeyer</strong> (* 13.10.1859 in Lemgo, † 23.11.1949 in Bremen, Gründer der Firma <em>„Ernst Krügermeyer & Co. Bremen“</em> 1886, Herderstraße 57) und <strong>Meta Margarethe geb. Meyne</strong> (* 20.01.1866 in Bremen, † 11.01.1955 in Bremen, ⚭ 05.06.1889).</li>
@@ -2315,13 +2378,14 @@ window.KRUEGERMEYER_DATA = {
         "7. Generation",
         "Bruder von Noah-Elias",
         "Sohn von Aike-Kristian & Claudia",
+        "Stiefsohn von Lidia Krügermeyer",
         "Cousin von Luca & Lino Valentino",
         "Enkel von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Geboren in Bremen. Bruder von Noah-Elias Krügermeyer, Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
+        "Geboren in Bremen. Bruder von Noah-Elias Krügermeyer, Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
       biography: `
-        <p><strong>Leon-Bennet Krügermeyer</strong> wurde wie sein Bruder <strong>Noah-Elias Krügermeyer</strong> in <strong>Bremen</strong> geboren. Er ist der Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong>.</p>
+        <p><strong>Leon-Bennet Krügermeyer</strong> wurde wie sein Bruder <strong>Noah-Elias Krügermeyer</strong> in <strong>Bremen</strong> geboren. Er ist der Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong> sowie der Stiefsohn von <strong>Lidia Krügermeyer</strong> (geboren in Warschau).</p>
         <p>In der 7. dokumentierten Generation der Familie ist er der Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (den Söhnen seines Onkels Lars Krügermeyer und seiner Tante Jasmin Krügermeyer), der Enkel von <strong>Gerd und Vera-Theresia Krügermeyer</strong>, der Urenkel von <strong>Herbert Gustav (1907–1998) und Christel Krügermeyer</strong> sowie der Ururenkel des Bremer Firmengründers <strong>Ernst Simon Krügermeyer (1859–1949)</strong>.</p>
       `,
       events: [
@@ -4717,6 +4781,14 @@ window.KRUEGERMEYER_DATA = {
       pillText: "Eltern (getrennt)",
       roleLabel: "Elternschaft (getrennt)",
       place: "Bremen"
+    },
+    {
+      type: "marriage",
+      partner1: "aike-kristian-kruegermeyer-1970",
+      partner2: "lidia-kruegermeyer",
+      pillText: "⚭ Ehe",
+      roleLabel: "Ehe",
+      place: "Deutschland"
     },
     {
       type: "parent-child",

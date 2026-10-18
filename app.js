@@ -76,6 +76,7 @@
 
     "aike-kristian-kruegermeyer-1970": { label: "Vater (* Hannover)", direct: true },
     "claudia-kruegermeyer-hentschel": { label: "Mutter (geb. Hentschel)", direct: true },
+    "lidia-kruegermeyer": { label: "Stiefmutter (* Warschau)", direct: true },
     "lars-kruegermeyer-1972": { label: "Onkel (* Köln)", direct: true },
     "jasmin-kruegermeyer": { label: "Tante", direct: true },
     "carsten-kruegermeyer-1965": { label: "Cousin 2. Grades", direct: false },
@@ -126,9 +127,9 @@
     },
     {
       gen: 6,
-      period: "6. Gen. · Eltern & Onkel",
-      names: "Aike-Kristian & Claudia · Lars & Jasmin",
-      place: "Hannover, Köln & Bremen",
+      period: "6. Gen. · Eltern, Stiefmutter & Onkel",
+      names: "Aike-Kristian & Lidia / Claudia · Lars & Jasmin",
+      place: "Hannover, Warschau, Köln & Bremen",
       focusId: "aike-kristian-kruegermeyer-1970"
     },
     {
@@ -1042,14 +1043,15 @@
         title: "Großeltern Gerd & Vera-Theresia, Eltern Aike-Kristian & Claudia, Onkel Lars & Jasmin und die 7. Generation",
         prose: [
           "In der 5. Generation führten unser Großvater <strong>Gerd Krügermeyer</strong> und unsere Großmutter <strong>Vera-Theresia Krügermeyer</strong> (ansässig im Raum Bremen und Hambergen bei Bremen, mit ihren geliebten privaten Ferienhäusern auf Mallorca und Formentera) die Linie weiter, während Gerds Bruder <strong>Dr. Lutz Krügermeyer</strong> als promovierter Meteorologe und Meeresforscher an der Universität Hamburg internationale Meeresexpeditionen begleitete.",
-          "Die beiden Söhne von Gerd und Vera-Theresia Krügermeyer bilden die 6. Generation: <strong>Aike-Kristian Krügermeyer</strong> wurde in <strong>Hannover</strong> geboren, sein Bruder <strong>Lars Krügermeyer</strong> in <strong>Köln</strong>.",
-          "In der <strong>7. Generation</strong> schließt sich der historische Kreis wieder in der alten Familienheimat <strong>Bremen</strong>: Sowohl <strong>Noah-Elias Krügermeyer</strong> und sein Bruder <strong>Leon-Bennet Krügermeyer</strong> (Söhne von <strong>Aike-Kristian Krügermeyer</strong> und <strong>Claudia Krügermeyer geb. Hentschel</strong>) als auch ihre beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (Söhne von Onkel <strong>Lars Krügermeyer</strong> und Tante <strong>Jasmin Krügermeyer</strong>) wurden alle vier in <strong>Bremen</strong> geboren."
+          "Die beiden Söhne von Gerd und Vera-Theresia Krügermeyer bilden die 6. Generation: <strong>Aike-Kristian Krügermeyer</strong> (verheiratet mit <strong>Lidia Krügermeyer</strong>, geboren in <strong>Warschau</strong>) wurde in <strong>Hannover</strong> geboren, sein Bruder <strong>Lars Krügermeyer</strong> in <strong>Köln</strong>.",
+          "In der <strong>7. Generation</strong> schließt sich der historische Kreis wieder in der alten Familienheimat <strong>Bremen</strong>: Sowohl <strong>Noah-Elias Krügermeyer</strong> und sein Bruder <strong>Leon-Bennet Krügermeyer</strong> (Söhne von <strong>Aike-Kristian Krügermeyer</strong> und <strong>Claudia Krügermeyer geb. Hentschel</strong>, Stiefsöhne von <strong>Lidia Krügermeyer</strong>) als auch ihre beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (Söhne von Onkel <strong>Lars Krügermeyer</strong> und Tante <strong>Jasmin Krügermeyer</strong>) wurden alle vier in <strong>Bremen</strong> geboren."
         ],
         personIds: [
           "gerd-kruegermeyer-1940",
           "vera-theresia-kruegermeyer-1942",
           "lutz-kruegermeyer-1942",
           "aike-kristian-kruegermeyer-1970",
+          "lidia-kruegermeyer",
           "claudia-kruegermeyer-hentschel",
           "lars-kruegermeyer-1972",
           "jasmin-kruegermeyer",
