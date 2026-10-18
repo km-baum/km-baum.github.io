@@ -614,7 +614,7 @@
         const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
         path.setAttribute("d", `M ${x1} ${y1} L ${x2} ${y2}`);
         path.setAttribute("class", "connector-path marriage-line");
-        path.dataset.people = `${rel.partner1},${rel.partner2}`;
+        path.setAttribute("data-people", `${rel.partner1},${rel.partner2}`);
         svgLayer.appendChild(path);
         svgPaths.push(path);
 
@@ -672,7 +672,7 @@
           "class",
           "connector-path" + (isDirectConnector ? " direct-line-connector" : "")
         );
-        path.dataset.people = [...rel.parents, rel.child].join(",");
+        path.setAttribute("data-people", [...rel.parents, rel.child].join(","));
         svgLayer.appendChild(path);
         svgPaths.push(path);
       }
@@ -753,7 +753,7 @@
       // Hover highlight for connected family lines
       node.addEventListener("mouseenter", () => {
         svgPaths.forEach((p) => {
-          const ids = (p.dataset.people || "").split(",");
+          const ids = (p.getAttribute("data-people") || "").split(",");
           if (ids.includes(person.id)) {
             p.classList.add("highlighted");
             p.classList.remove("dimmed");
