@@ -642,8 +642,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-40",
     "num": 40,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Landhandel S. A. Krügermeyer: Rotklee & Serradella (20. APR. 1918)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "20. APR. 1918",
     "year": 1918,
     "newspaper": "Lippische Tageszeitung",
@@ -1278,8 +1278,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-78",
     "num": 78,
-    "title": "Lippische Tageszeitung (28. OKT. 1925)",
-    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
+    "title": "Landhandel S. A. Krügermeyer: Saatweizen in Original-Absaaten (28. OKT. 1925)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "28. OKT. 1925",
     "year": 1925,
     "newspaper": "Lippische Tageszeitung",
@@ -1327,8 +1327,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-81",
     "num": 81,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Historische Auslandsschau (24. APR. 1902)",
+    "category": "Historische Zeitungschronik",
     "date": "24. APR. 1902",
     "year": 1902,
     "newspaper": "Lippische Landes-Zeitung",
@@ -2421,8 +2421,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-147",
     "num": 147,
-    "title": "Familienanzeige Krügermeyer · Lippisches Volksblatt",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Kriegerverein Lemgo: Vorstandswahlen (5. JAN. 1892)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "5. JAN. 1892",
     "year": 1892,
     "newspaper": "Lippisches Volksblatt",
@@ -2912,8 +2912,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-178",
     "num": 178,
-    "title": "Todesanzeige / Traueranzeige (26. APR. 1922)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Klee, Hafer & Gerste (26. APR. 1922)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "26. APR. 1922",
     "year": 1922,
     "newspaper": "Lippische Tageszeitung",
@@ -3526,8 +3526,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-216",
     "num": 216,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Kriegswirtschaftsamt: Verteilung von Saathafer durch S. A. Krügermeyer (16. APR. 1918)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "16. APR. 1918",
     "year": 1918,
     "newspaper": "Lippische Tageszeitung",
@@ -4628,8 +4628,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-284",
     "num": 284,
-    "title": "Militärische Notiz / Auszeichnung · Lippisches Volksblatt",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Kriegerverein: Festrede zum Kaisergeburtstag (22. APR. 1890)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "22. APR. 1890",
     "year": 1890,
     "newspaper": "Lippisches Volksblatt",
@@ -4786,8 +4786,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-294",
     "num": 294,
-    "title": "Todesanzeige / Traueranzeige (2. AUG. 1938)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Amtsgericht Lage: Handelsregistereintrag Firma S. A. Krügermeyer (2. AUG. 1938)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "2. AUG. 1938",
     "year": 1938,
     "newspaper": "Deutsche Reichsanzeiger und Preußische Staatsanzeiger",
@@ -4797,7 +4797,7 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "originalArchive": "Deutsches Zeitungsportal / Deutsche Digitale Bibliothek",
     "archiveUrl": "https://www.deutsche-digitale-bibliothek.de/newspaper",
     "personIds": [
-      "luise-stuchtey-1858"
+      "simon-august-kruegermeyer-1820"
     ]
   },
   {
@@ -5850,8 +5850,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-359",
     "num": 359,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Wohnungsanzeige Lemgo (12. JUL. 1891)",
+    "category": "Immobilien, Versteigerungen & Anzeigen",
     "date": "12. JUL. 1891",
     "year": 1891,
     "newspaper": "Lippische Landes-Zeitung",
@@ -5883,8 +5883,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-361",
     "num": 361,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Post",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Stadtverordnetensitzung Lage: Wahl von Herrn Kalthoff (18. JAN. 1922)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "18. JAN. 1922",
     "year": 1922,
     "newspaper": "Lippische Post",
@@ -5893,7 +5893,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0361.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-362",
@@ -6370,8 +6372,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-391",
     "num": 391,
-    "title": "Lippische Tageszeitung (29. MRZ. 1925)",
-    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
+    "title": "Kaufmann S. A. Krügermeyer: Stoff- und Wäschelager (29. MRZ. 1925)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "29. MRZ. 1925",
     "year": 1925,
     "newspaper": "Lippische Tageszeitung",
@@ -6534,8 +6536,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-401",
     "num": 401,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Kriegswirtschaftliche Verteilung S. A. Krügermeyer (13. MAI 1919)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "13. MAI 1919",
     "year": 1919,
     "newspaper": "Lippische Tageszeitung",
@@ -7376,8 +7378,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-453",
     "num": 453,
-    "title": "Todesanzeige / Traueranzeige (28. APR. 1927)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Kraftfuttermittel & Thomasmehl (28. APR. 1927)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "28. APR. 1927",
     "year": 1927,
     "newspaper": "Lippische Tageszeitung",
@@ -7386,7 +7388,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0453.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-454",
@@ -7634,8 +7638,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-469",
     "num": 469,
-    "title": "Todesanzeige / Traueranzeige (9. MRZ. 1922)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Landhandel S. A. Krügermeyer: Saatweizen & Gelbhafer (9. MRZ. 1922)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "9. MRZ. 1922",
     "year": 1922,
     "newspaper": "Lippische Tageszeitung",
@@ -7683,8 +7687,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-472",
     "num": 472,
-    "title": "Ernst Krügermeyer & Co. (Bremen) · Neues Wiener Tagblatt (Tages- Ausgabe)",
-    "category": "Ernst Krügermeyer & Co. (Bremen & Kosmetik)",
+    "title": "Wien: Uhrmacher Wilhelm Krügermeyer & Wiener Gewerbetreibende (4. JUN. 1871)",
+    "category": "Historische Zeitungschronik",
     "date": "4. JUN. 1871",
     "year": 1871,
     "newspaper": "Neues Wiener Tagblatt (Tages- Ausgabe)",
@@ -7694,7 +7698,7 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "originalArchive": "ANNO – Historische österreichische Zeitungen (Österreichische Nationalbibliothek)",
     "archiveUrl": "https://anno.onb.ac.at/",
     "personIds": [
-      "wilhelm-kruegermeyer-wien-1840"
+      "wilhelm-kruegermeyer-1830"
     ]
   },
   {
@@ -7905,8 +7909,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-486",
     "num": 486,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Lippischer Obermeistertag der Handwerkskammer (29. SEPT. 1914)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "29. SEPT. 1914",
     "year": 1914,
     "newspaper": "Lippische Tageszeitung",
@@ -10603,8 +10607,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-653",
     "num": 653,
-    "title": "Familienanzeige Krügermeyer · Lippische Tageszeitung",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Lemgoer Stadtchronik: Sommergewitter & Kanalisation (5. SEPT. 1937)",
+    "category": "Historische Zeitungschronik",
     "date": "5. SEPT. 1937",
     "year": 1937,
     "newspaper": "Lippische Tageszeitung",
@@ -11430,8 +11434,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-704",
     "num": 704,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Lippische Wirtschaftsbekanntmachung (29. APR. 1919)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "29. APR. 1919",
     "year": 1919,
     "newspaper": "Lippische Tageszeitung",
@@ -11849,8 +11853,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-729",
     "num": 729,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Wohltätigkeitssammlung in Lage mit Kaufmann S. A. Krügermeyer (25. NOV. 1912)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "25. NOV. 1912",
     "year": 1912,
     "newspaper": "Lippische Landes-Zeitung",
@@ -12082,8 +12086,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-744",
     "num": 744,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Spendenaufruf für das Rote Kreuz mit Familie Krügermeyer in Lage (10. MAI 1911)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "10. MAI 1911",
     "year": 1911,
     "newspaper": "Lippische Tageszeitung",
@@ -12092,7 +12096,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0744.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-745",
@@ -12241,8 +12247,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-754",
     "num": 754,
-    "title": "Lippische Tageszeitung (30. OKT. 1926)",
-    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
+    "title": "Kaufmann S. A. Krügermeyer: Wasserdichte Planen & Zelte (30. OKT. 1926)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "30. OKT. 1926",
     "year": 1926,
     "newspaper": "Lippische Tageszeitung",
@@ -12421,8 +12427,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-765",
     "num": 765,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Wohltätigkeitsausschuss Lage mit Kaufmann S. A. Krügermeyer (8. JUL. 1911)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "8. JUL. 1911",
     "year": 1911,
     "newspaper": "Lippische Tageszeitung",
@@ -12620,8 +12626,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-777",
     "num": 777,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Komitee für das Kinderheim Lage mit Kaufmann S. A. Krügermeyer (24. JUN. 1911)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "24. JUN. 1911",
     "year": 1911,
     "newspaper": "Lippische Tageszeitung",
@@ -12637,8 +12643,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-778",
     "num": 778,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Fürsorgeverein Lage: Bericht mit Kaufmann S. A. Krügermeyer (29. JUL. 1911)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "29. JUL. 1911",
     "year": 1911,
     "newspaper": "Lippische Tageszeitung",
@@ -13439,8 +13445,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-827",
     "num": 827,
-    "title": "Todesanzeige / Traueranzeige (11. SEPT. 1925)",
-    "category": "Todesanzeige & Nachruf",
+    "title": "Verkaufsanzeige: Kutschwagen & Schlitten bei S. A. Krügermeyer (11. SEPT. 1925)",
+    "category": "Immobilien, Versteigerungen & Anzeigen",
     "date": "11. SEPT. 1925",
     "year": 1925,
     "newspaper": "Lippische Landes-Zeitung",
@@ -13781,8 +13787,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-848",
     "num": 848,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Post",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Spendenliste für das Diakonissenhaus mit Kaufmann S. A. Krügermeyer (9. MAI 1911)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "9. MAI 1911",
     "year": 1911,
     "newspaper": "Lippische Post",
@@ -14030,8 +14036,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-863",
     "num": 863,
-    "title": "Familienanzeige Krügermeyer · Lippische Landes-Zeitung",
-    "category": "Familiennachricht (Heirat / Geburt / Jubiläum)",
+    "title": "Kriegerverein Lemgo: Generalversammlung & Wahlen (6. JAN. 1892)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "6. JAN. 1892",
     "year": 1892,
     "newspaper": "Lippische Landes-Zeitung",
@@ -14143,8 +14149,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-870",
     "num": 870,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Saatgutverteilung durch Firma S. A. Krügermeyer in Lage (17. JAN. 1920)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "17. JAN. 1920",
     "year": 1920,
     "newspaper": "Lippische Landes-Zeitung",
@@ -14209,8 +14215,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-874",
     "num": 874,
-    "title": "Lippische Post (17. JUL. 1917)",
-    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
+    "title": "Kaufmann S. A. Krügermeyer: Kleinanzeige (17. JUL. 1917)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "17. JUL. 1917",
     "year": 1917,
     "newspaper": "Lippische Post",
@@ -14219,7 +14225,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0874.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-875",
@@ -14387,8 +14395,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-885",
     "num": 885,
-    "title": "Militärische Notiz / Auszeichnung · Bielefelder General-Anzeiger",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Stadtverordneten-Versammlung Lemgo (4. JUL. 1908)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "4. JUL. 1908",
     "year": 1908,
     "newspaper": "Bielefelder General-Anzeiger",
@@ -14402,8 +14410,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-886",
     "num": 886,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Empfang beim Prinzregenten zu Lippe (2. NOV. 1896)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "2. NOV. 1896",
     "year": 1896,
     "newspaper": "Lippische Landes-Zeitung",
@@ -14547,8 +14555,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-895",
     "num": 895,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Landes-Zeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Kriegswirtschaftsamt: Aussaat-Hafer über Firma S. A. Krügermeyer (17. APR. 1918)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "17. APR. 1918",
     "year": 1918,
     "newspaper": "Lippische Landes-Zeitung",
@@ -15671,8 +15679,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-964",
     "num": 964,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Landwirtschaftskammer-Wahlen im Fürstentum Lippe (26. APR. 1913)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "26. APR. 1913",
     "year": 1913,
     "newspaper": "Lippische Tageszeitung",
@@ -16055,8 +16063,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-988",
     "num": 988,
-    "title": "Lippische Landes-Zeitung (2. AUG. 1919)",
-    "category": "Gewerbe & Bleicherei (Kastanienwall / Lemgo)",
+    "title": "Kaufmann S. A. Krügermeyer: Wäsche-Artikel nach Maß (2. AUG. 1919)",
+    "category": "Kaufmann & Landhandel (S.A. Krügermeyer / Lage)",
     "date": "2. AUG. 1919",
     "year": 1919,
     "newspaper": "Lippische Landes-Zeitung",
@@ -16065,7 +16073,9 @@ window.KRUEGERMEYER_ZEITUNGEN = [
     "image": "assets/zeitung/art_0988.jpg",
     "originalArchive": "Lippische Landesbibliothek Detmold (Historische Zeitungen Lippe)",
     "archiveUrl": "https://zeitungen.llb-detmold.de/",
-    "personIds": []
+    "personIds": [
+      "simon-august-kruegermeyer-1820"
+    ]
   },
   {
     "id": "art-989",
@@ -16117,8 +16127,8 @@ window.KRUEGERMEYER_ZEITUNGEN = [
   {
     "id": "art-992",
     "num": 992,
-    "title": "Militärische Notiz / Auszeichnung · Lippische Tageszeitung",
-    "category": "Militär, Auszeichnungen & Verlustlisten",
+    "title": "Amtliche Bekanntmachung zu den Kammerwahlen (26. APR. 1913)",
+    "category": "Amtlich, Kirche & Politik",
     "date": "26. APR. 1913",
     "year": 1913,
     "newspaper": "Lippische Tageszeitung",
