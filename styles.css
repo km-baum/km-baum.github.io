@@ -97,8 +97,8 @@ body {
 }
 
 .brand-crest {
-  width: 48px;
-  height: 54px;
+  width: 58px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,8 +107,8 @@ body {
 }
 
 .brand:hover .brand-crest {
-  transform: scale(1.08) translateY(-1px);
-  filter: drop-shadow(0 6px 14px rgba(184, 134, 40, 0.35));
+  transform: scale(1.06) translateY(-1px);
+  filter: drop-shadow(0 6px 14px rgba(170, 124, 30, 0.32));
 }
 
 .brand-crest-svg {
@@ -2207,8 +2207,8 @@ body {
     font-size: 1.8rem;
   }
   .brand-crest {
-    width: 40px;
-    height: 46px;
+    width: 48px;
+    height: 44px;
   }
   .footer-brand {
     font-size: 1.4rem;

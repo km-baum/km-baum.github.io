@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=UnifrakturMaguntia&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=7" />
+  <link rel="stylesheet" href="./styles.css?v=8" />
 </head>
 <body>
 
@@ -18,83 +18,64 @@
     <div class="header-inner">
       <a href="#" class="brand" id="brand-home-link" title="Familienarchiv Krügermeyer – Zur Startseite">
         <div class="brand-crest" aria-hidden="true">
-          <svg class="brand-crest-svg" viewBox="0 0 120 135" width="48" height="54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wappen Krügermeyer 1775">
+          <svg class="brand-crest-svg" viewBox="0 0 160 145" width="58" height="52" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wappen Krügermeyer">
             <defs>
-              <linearGradient id="kmGold" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#FFF2D6"/>
-                <stop offset="25%" stop-color="#E5BE72"/>
-                <stop offset="55%" stop-color="#B88628"/>
-                <stop offset="80%" stop-color="#EAC982"/>
-                <stop offset="100%" stop-color="#8C5E14"/>
+              <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FBF0D9"/>
+                <stop offset="30%" stop-color="#D9B25F"/>
+                <stop offset="65%" stop-color="#AA7C1E"/>
+                <stop offset="100%" stop-color="#7D5508"/>
               </linearGradient>
-              <linearGradient id="kmShieldBg" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stop-color="#24303F"/>
-                <stop offset="40%" stop-color="#161E28"/>
-                <stop offset="100%" stop-color="#0B1017"/>
+              <linearGradient id="crestBg" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#232C37"/>
+                <stop offset="50%" stop-color="#161D25"/>
+                <stop offset="100%" stop-color="#0D1217"/>
               </linearGradient>
-              <radialGradient id="kmGlow" cx="50%" cy="45%" r="60%">
-                <stop offset="0%" stop-color="#E5BE72" stop-opacity="0.3"/>
-                <stop offset="100%" stop-color="#E5BE72" stop-opacity="0"/>
-              </radialGradient>
-              <filter id="kmDrop" x="-15%" y="-10%" width="130%" height="130%">
-                <feDropShadow dx="0" dy="4" stdDeviation="3.5" flood-color="#000" flood-opacity="0.45"/>
+              <filter id="crestShadowClean" x="-10%" y="-10%" width="120%" height="125%">
+                <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#000" flood-opacity="0.35"/>
               </filter>
             </defs>
 
-            <!-- Outer Shadow & Shield Base -->
-            <g filter="url(#kmDrop)">
-              <path d="M 16 12 C 16 9 20 7 30 7 L 90 7 C 100 7 104 9 104 12 L 104 62 C 104 96 60 122 60 122 C 60 122 16 96 16 62 Z"
-                    fill="url(#kmShieldBg)" stroke="url(#kmGold)" stroke-width="2.5" stroke-linejoin="round"/>
-              <path d="M 16 12 C 16 9 20 7 30 7 L 90 7 C 100 7 104 9 104 12 L 104 62 C 104 96 60 122 60 122 C 60 122 16 96 16 62 Z"
-                    fill="url(#kmGlow)"/>
-              <path d="M 22 17 C 22 15 25 13 32 13 L 88 13 C 95 13 98 15 98 17 L 98 60 C 98 90 60 113 60 113 C 60 113 22 90 22 60 Z"
-                    fill="none" stroke="url(#kmGold)" stroke-width="1" stroke-opacity="0.65"/>
+            <!-- Outer Shield with refined silhouette -->
+            <g filter="url(#crestShadowClean)">
+              <path d="M 18 16 C 18 12 26 10 40 10 L 120 10 C 134 10 142 12 142 16 L 142 70 C 142 108 80 136 80 136 C 80 136 18 108 18 70 Z"
+                    fill="url(#crestBg)" stroke="url(#crestGold)" stroke-width="2.2" stroke-linejoin="round"/>
+              <path d="M 24 21 C 24 18 30 16 42 16 L 118 16 C 130 16 136 18 136 21 L 136 68 C 136 102 80 128 80 128 C 80 128 24 102 24 68 Z"
+                    fill="none" stroke="url(#crestGold)" stroke-width="0.9" stroke-opacity="0.55"/>
             </g>
 
-            <!-- Coronet / Heraldic Crown at Top -->
-            <g fill="url(#kmGold)">
-              <path d="M 44 23 L 48 16 L 54 21 L 60 14 L 66 21 L 72 16 L 76 23 C 71 24 49 24 44 23 Z" opacity="0.95"/>
-              <circle cx="48" cy="15" r="1.3"/>
-              <circle cx="60" cy="13" r="1.6"/>
-              <circle cx="72" cy="15" r="1.3"/>
-              <circle cx="50" cy="23" r="0.8" fill="#FFF2D6"/>
-              <circle cx="60" cy="23" r="0.8" fill="#FFF2D6"/>
-              <circle cx="70" cy="23" r="0.8" fill="#FFF2D6"/>
+            <!-- Lippische Rose (Lemgoer Wurzeln) at top - stilvoll & dezent -->
+            <g transform="translate(80, 36)" fill="url(#crestGold)" opacity="0.92">
+              <circle cx="0" cy="0" r="3.2"/>
+              <circle cx="0" cy="0" r="1.5" fill="#161D25"/>
+              <path d="M 0 -3.5 C -3 -7 -3 -11 0 -13 C 3 -11 3 -7 0 -3.5 Z"/>
+              <path d="M 3.3 -1.1 C 7.2 -3.1 11 -2.3 12.3 0.8 C 10.4 3.2 6.7 2.8 3.3 -1.1 Z"/>
+              <path d="M 2.1 2.8 C 4.5 6.4 5.2 10.1 2.6 12.1 C -0.1 11.2 -0.8 7.5 2.1 2.8 Z"/>
+              <path d="M -2.1 2.8 C 0.8 7.5 0.1 11.2 -2.6 12.1 C -5.2 10.1 -4.5 6.4 -2.1 2.8 Z"/>
+              <path d="M -3.3 -1.1 C -6.7 2.8 -10.4 3.2 -12.3 0.8 C -11 -2.3 -7.2 -3.1 -3.3 -1.1 Z"/>
+              <path d="M 3 -4.5 L 5.5 -7 L 4 -3 Z" opacity="0.75"/>
+              <path d="M 4 1.5 L 7 2.8 L 3.5 3.5 Z" opacity="0.75"/>
+              <path d="M 0 4.5 L 0 7.5 L -1.5 4.5 Z" opacity="0.75"/>
+              <path d="M -4 1.5 L -7 2.8 L -3.5 3.5 Z" opacity="0.75"/>
+              <path d="M -3 -4.5 L -5.5 -7 L -4 -3 Z" opacity="0.75"/>
             </g>
 
-            <!-- Laurel Wreath Leaves (Left) -->
-            <g fill="url(#kmGold)" opacity="0.85">
-              <path d="M 32 40 C 29 42 27 48 30 52 C 32 48 35 45 32 40 Z"/>
-              <path d="M 29 55 C 27 58 27 64 31 67 C 32 63 34 59 29 55 Z"/>
-              <path d="M 32 70 C 31 74 33 79 38 81 C 38 77 37 73 32 70 Z"/>
-              <path d="M 39 83 C 40 87 44 91 49 92 C 48 88 45 85 39 83 Z"/>
-            </g>
-
-            <!-- Laurel Wreath Leaves (Right) -->
-            <g fill="url(#kmGold)" opacity="0.85">
-              <path d="M 88 40 C 91 42 93 48 90 52 C 88 48 85 45 88 40 Z"/>
-              <path d="M 91 55 C 93 58 93 64 89 67 C 88 63 86 59 91 55 Z"/>
-              <path d="M 88 70 C 89 74 87 79 82 81 C 82 77 83 73 88 70 Z"/>
-              <path d="M 81 83 C 80 87 76 91 71 92 C 72 88 75 85 81 83 Z"/>
-            </g>
-
-            <!-- Central Gothic Monogram KM -->
-            <text x="60" y="66" text-anchor="middle"
-                  font-family="'UnifrakturMaguntia', 'UnifrakturCook', Georgia, serif"
-                  font-size="38" font-weight="700"
-                  fill="url(#kmGold)"
-                  style="filter: drop-shadow(0 2px 3px rgba(0,0,0,0.7)); letter-spacing: -2px;">KM</text>
-
-            <!-- Established Ribbon Banner at Bottom with 1775 -->
+            <!-- Central Section for Name Krügermeyer -->
             <g>
-              <path d="M 32 99 L 40 96 L 40 102 Z" fill="#6A430B"/>
-              <path d="M 88 99 L 80 96 L 80 102 Z" fill="#6A430B"/>
-              <path d="M 36 97 Q 60 93 84 97 L 82 107 Q 60 103 38 107 Z"
-                    fill="url(#kmGold)" stroke="#6A430B" stroke-width="0.5"/>
-              <text x="60" y="103.5" text-anchor="middle"
-                    font-family="'Inter', -apple-system, sans-serif"
-                    font-size="8.5" font-weight="700" letter-spacing="1.2"
-                    fill="#161E28">1775</text>
+              <line x1="32" y1="58" x2="128" y2="58" stroke="url(#crestGold)" stroke-width="0.8" opacity="0.65"/>
+              <text x="80" y="78" text-anchor="middle"
+                    font-family="'UnifrakturMaguntia', 'UnifrakturCook', Georgia, serif"
+                    font-size="18.5" font-weight="400"
+                    fill="url(#crestGold)"
+                    style="filter: drop-shadow(0 1.5px 2px rgba(0,0,0,0.6)); letter-spacing: 0.4px;">Krügermeyer</text>
+              <line x1="32" y1="88" x2="128" y2="88" stroke="url(#crestGold)" stroke-width="0.8" opacity="0.65"/>
+            </g>
+
+            <!-- Subtle lower heraldic fleuron accent -->
+            <g transform="translate(80, 105)" fill="url(#crestGold)" opacity="0.75">
+              <polygon points="0,-3.5 3.5,0 0,3.5 -3.5,0"/>
+              <circle cx="-9" cy="0" r="0.9"/>
+              <circle cx="9" cy="0" r="0.9"/>
             </g>
           </svg>
         </div>
@@ -399,8 +380,8 @@
     </div>
   </footer>
 
-  <script src="./data.js?v=7"></script>
-  <script src="./newspaper_articles.js?v=7"></script>
-  <script src="./app.js?v=7"></script>
+  <script src="./data.js?v=8"></script>
+  <script src="./newspaper_articles.js?v=8"></script>
+  <script src="./app.js?v=8"></script>
 </body>
 </html>
