@@ -86,7 +86,7 @@
     "noah-elias-kruegermeyer": { label: "★ 7. Gen. · Chronist", direct: true },
     "leon-bennet-kruegermeyer": { label: "★ Bruder (7. Gen.)", direct: true },
     "luca-kruegermeyer": { label: "★ Cousin (7. Gen.)", direct: true },
-    "lino-valentino-kruegermeyer": { label: "★ Cousin (7. Gen.)", direct: true }
+    "lino-kruegermeyer": { label: "★ Cousin (7. Gen.)", direct: true }
   };
 
   const LINEAGE_STEPS = [
@@ -135,7 +135,7 @@
     {
       gen: 7,
       period: "7. Gen. · Gegenwart",
-      names: "Noah-Elias, Leon-Bennet, Luca & Lino Valentino",
+      names: "Noah-Elias, Leon-Bennet, Luca & Lino",
       place: "Alle geboren in Bremen",
       focusId: "noah-elias-kruegermeyer"
     }
@@ -1044,7 +1044,7 @@
         prose: [
           "In der 5. Generation führten unser Großvater <strong>Gerd Krügermeyer</strong> und unsere Großmutter <strong>Vera-Theresia Krügermeyer</strong> (ansässig im Raum Bremen und Hambergen bei Bremen, mit ihren geliebten privaten Ferienhäusern auf Mallorca und Formentera) die Linie weiter, während Gerds Bruder <strong>Dr. Lutz Krügermeyer</strong> als promovierter Meteorologe und Meeresforscher an der Universität Hamburg internationale Meeresexpeditionen begleitete.",
           "Die beiden Söhne von Gerd und Vera-Theresia Krügermeyer bilden die 6. Generation: <strong>Aike-Kristian Krügermeyer</strong> (verheiratet mit <strong>Lidia Krügermeyer</strong>, geboren in <strong>Warschau</strong>) wurde in <strong>Hannover</strong> geboren, sein Bruder <strong>Lars Krügermeyer</strong> in <strong>Köln</strong>.",
-          "In der <strong>7. Generation</strong> schließt sich der historische Kreis wieder in der alten Familienheimat <strong>Bremen</strong>: Sowohl <strong>Noah-Elias Krügermeyer</strong> und sein Bruder <strong>Leon-Bennet Krügermeyer</strong> (Söhne von <strong>Aike-Kristian Krügermeyer</strong> und <strong>Claudia Krügermeyer geb. Hentschel</strong>, Stiefsöhne von <strong>Lidia Krügermeyer</strong>) als auch ihre beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (Söhne von Onkel <strong>Lars Krügermeyer</strong> und Tante <strong>Jasmin Krügermeyer</strong>) wurden alle vier in <strong>Bremen</strong> geboren."
+          "In der <strong>7. Generation</strong> schließt sich der historische Kreis wieder in der alten Familienheimat <strong>Bremen</strong>: Sowohl <strong>Noah-Elias Krügermeyer</strong> und sein Bruder <strong>Leon-Bennet Krügermeyer</strong> (Söhne von <strong>Aike-Kristian Krügermeyer</strong> und <strong>Claudia Krügermeyer geb. Hentschel</strong>, Stiefsöhne von <strong>Lidia Krügermeyer</strong>) als auch ihre beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong> (Söhne von Onkel <strong>Lars Krügermeyer</strong> und Tante <strong>Jasmin Krügermeyer</strong>) wurden alle vier in <strong>Bremen</strong> geboren."
         ],
         personIds: [
           "gerd-kruegermeyer-1940",
@@ -1058,7 +1058,7 @@
           "noah-elias-kruegermeyer",
           "leon-bennet-kruegermeyer",
           "luca-kruegermeyer",
-          "lino-valentino-kruegermeyer"
+          "lino-kruegermeyer"
         ],
         photo: null
       },

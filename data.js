@@ -21,7 +21,7 @@ window.KRUEGERMEYER_DATA = {
       period: "ab ca. 1775 bis heute (7 Generationen)",
       color: "#8c3b3b",
       description:
-        "Unsere durchgehend belegte direkte Stammlinie über 7 Generationen: Von den Lemgoer Bleichereibesitzern (Johann Christoph Krügermeyer ⚭ Anna Maria Elisabeth geb. Priester 1801, Henrich Christoph Krügermeyer 1813–1887 ⚭ Amalia Florentine Henriette geb. Diekmann 1829–1917 aus Heiden) über Firmengründer Ernst Simon Krügermeyer (1859–1949 in Bremen ⚭ 1889 Meta Margarethe geb. Meyne 1866–1955) und seinen Sohn Herbert „Herbie“ Gustav Krügermeyer (1907–1998 ⚭ 1939 Christel Krügermeyer) weiter zu den Großeltern Gerd Krügermeyer & Vera-Theresia Krügermeyer (Bremen / Hambergen bei Bremen, mit Ferienhäusern auf Mallorca und Formentera) und Großonkel Dr. Lutz Krügermeyer, Vater Aike-Kristian Krügermeyer (* Hannover), Mutter Claudia Krügermeyer (geb. Hentschel), Onkel Lars Krügermeyer (* Köln) & Tante Jasmin Krügermeyer bis zu Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer (* in Bremen) – inklusive des Zwillingszweiges um Ernst Otto Krügermeyer (1907–1995 ⚭ Charlotte Emma Bertha „Lotte“ geb. Weber), Helmut (Hellmut) Krügermeyer und Familie Haide & Frithjof Hecker."
+        "Unsere durchgehend belegte direkte Stammlinie über 7 Generationen: Von den Lemgoer Bleichereibesitzern (Johann Christoph Krügermeyer ⚭ Anna Maria Elisabeth geb. Priester 1801, Henrich Christoph Krügermeyer 1813–1887 ⚭ Amalia Florentine Henriette geb. Diekmann 1829–1917 aus Heiden) über Firmengründer Ernst Simon Krügermeyer (1859–1949 in Bremen ⚭ 1889 Meta Margarethe geb. Meyne 1866–1955) und seinen Sohn Herbert „Herbie“ Gustav Krügermeyer (1907–1998 ⚭ 1939 Christel Krügermeyer) weiter zu den Großeltern Gerd Krügermeyer & Vera-Theresia Krügermeyer (Bremen / Hambergen bei Bremen, mit Ferienhäusern auf Mallorca und Formentera) und Großonkel Dr. Lutz Krügermeyer, Vater Aike-Kristian Krügermeyer (* Hannover), Mutter Claudia Krügermeyer (geb. Hentschel), Onkel Lars Krügermeyer (* Köln) & Tante Jasmin Krügermeyer bis zu Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer (* in Bremen) – inklusive des Zwillingszweiges um Ernst Otto Krügermeyer (1907–1995 ⚭ Charlotte Emma Bertha „Lotte“ geb. Weber), Helmut (Hellmut) Krügermeyer und Familie Haide & Frithjof Hecker."
     },
     {
       id: "lage-detmold",
@@ -111,7 +111,7 @@ window.KRUEGERMEYER_DATA = {
       period: "1789 (Meyne) / 1886 (Krügermeyer & Co.) – heute",
       count: 20,
       description:
-        "Zentrum unserer Familie seit dem 19. Jahrhundert: Die Bremer Vorfahrenlinie Meyne ist hier schon ab 1789 (Johann Friedrich Christoph Meyne, 1789–1868, ⚭ Maria Margreta geb. Müller, 1789–1851, sowie Philipp Heinrich Meyne, 1823–1902, ⚭ Meta Margarethe geb. Eschenbach, 1835–1898) belegt. Der aus Lemgo stammende Ernst Simon Krügermeyer (1859–1949) gründete hier 1886 die Firma „Ernst Krügermeyer & Co. Bremen“ (Marken „EK“, „SEBORAL“ & „SERUBAL“), heiratete am 05.06.1889 Meta Margarethe Meyne und wohnte in der Herderstraße 57. Hier wurden am 06.11.1907 die Zwillinge Herbert „Herbie“ Gustav (Urgroßvater) und Ernst Otto geboren, und hier kamen in der 7. Generation Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer zur Welt."
+        "Zentrum unserer Familie seit dem 19. Jahrhundert: Die Bremer Vorfahrenlinie Meyne ist hier schon ab 1789 (Johann Friedrich Christoph Meyne, 1789–1868, ⚭ Maria Margreta geb. Müller, 1789–1851, sowie Philipp Heinrich Meyne, 1823–1902, ⚭ Meta Margarethe geb. Eschenbach, 1835–1898) belegt. Der aus Lemgo stammende Ernst Simon Krügermeyer (1859–1949) gründete hier 1886 die Firma „Ernst Krügermeyer & Co. Bremen“ (Marken „EK“, „SEBORAL“ & „SERUBAL“), heiratete am 05.06.1889 Meta Margarethe Meyne und wohnte in der Herderstraße 57. Hier wurden am 06.11.1907 die Zwillinge Herbert „Herbie“ Gustav (Urgroßvater) und Ernst Otto geboren, und hier kamen in der 7. Generation Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer zur Welt."
     },
     {
       name: "Hambergen bei Bremen, Hannover, Köln, Hamburg & Berlin (Stammlinie)",
@@ -1571,9 +1571,9 @@ window.KRUEGERMEYER_DATA = {
         "Vater von Aike-Kristian & Lars"
       ],
       shortSummary:
-        "Großvater von Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer. Sohn von Herbert Gustav Krügermeyer (1907–1998) und Frau Christel Krügermeyer, Bruder von Dr. Lutz Krügermeyer, verheiratet mit Großmutter Vera-Theresia Krügermeyer sowie Vater von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln). Wohnhaft im Raum Bremen / Hambergen bei Bremen; gemeinsam mit Großmutter Vera-Theresia besaß er zudem ein Haus auf Mallorca und auf Formentera.",
+        "Großvater von Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer. Sohn von Herbert Gustav Krügermeyer (1907–1998) und Frau Christel Krügermeyer, Bruder von Dr. Lutz Krügermeyer, verheiratet mit Großmutter Vera-Theresia Krügermeyer sowie Vater von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln). Wohnhaft im Raum Bremen / Hambergen bei Bremen; gemeinsam mit Großmutter Vera-Theresia besaß er zudem ein Haus auf Mallorca und auf Formentera.",
       biography: `
-        <p><strong>Gerd Krügermeyer</strong> ist der <strong>Großvater (Opa)</strong> von Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer. Er wurde als Sohn von <strong>Herbert „Herbie“ Gustav Krügermeyer</strong> (1907–1998) und dessen Ehefrau <strong>Christel Krügermeyer</strong> geboren und wuchs gemeinsam mit seinem Bruder <strong>Dr. Lutz Krügermeyer</strong> auf. Seine direkten Großeltern väterlicherseits waren der Bremer Firmengründer Ernst Simon Krügermeyer (1859–1949) und Meta Margarethe geb. Meyne (1866–1955).</p>
+        <p><strong>Gerd Krügermeyer</strong> ist der <strong>Großvater (Opa)</strong> von Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer. Er wurde als Sohn von <strong>Herbert „Herbie“ Gustav Krügermeyer</strong> (1907–1998) und dessen Ehefrau <strong>Christel Krügermeyer</strong> geboren und wuchs gemeinsam mit seinem Bruder <strong>Dr. Lutz Krügermeyer</strong> auf. Seine direkten Großeltern väterlicherseits waren der Bremer Firmengründer Ernst Simon Krügermeyer (1859–1949) und Meta Margarethe geb. Meyne (1866–1955).</p>
         <p>Gemeinsam mit seiner Ehefrau, Großmutter <strong>Vera-Theresia Krügermeyer</strong>, bekam er die beiden Söhne <strong>Aike-Kristian Krügermeyer</strong> (geboren in Hannover) und <strong>Lars Krügermeyer</strong> (geboren in Köln). Im Raum Bremen lebten Gerd und Vera-Theresia Krügermeyer unter anderem in <strong>Hambergen bei Bremen</strong> (in den deutschen Telefonverzeichnissen 2001 und 2003 gemeinsam in <em>Hambergen b. Bremen</em> dokumentiert).</p>
         <p>Darüber hinaus besaßen Großvater Gerd und Großmutter Vera-Theresia Krügermeyer ein Ferienhaus auf <strong>Mallorca</strong> sowie ein Haus auf der Baleareninsel <strong>Formentera</strong> – weshalb Großmutter Vera-Theresia in den spanischen Telefonverzeichnissen (1999–2006) in <em>Es Pujols</em> und <em>Sant Francesc de Formentera</em> verzeichnet ist.</p>
       `,
@@ -1588,7 +1588,7 @@ window.KRUEGERMEYER_DATA = {
           date: "Ehe & Familie",
           title: "Heirat mit Vera-Theresia Krügermeyer & Geburt der Söhne Aike-Kristian und Lars",
           place: "Hannover / Köln / Bremen",
-          description: "Eltern von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln) sowie Großeltern von Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer (* in Bremen)."
+          description: "Eltern von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln) sowie Großeltern von Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer (* in Bremen)."
         },
         {
           date: "1999 – 2006",
@@ -1621,12 +1621,12 @@ window.KRUEGERMEYER_DATA = {
         "Bremen & Hambergen b. Bremen",
         "Häuser auf Mallorca & Formentera",
         "Mutter von Aike-Kristian & Lars",
-        "Oma von Noah-Elias, Leon-Bennet, Luca & Lino Valentino"
+        "Oma von Noah-Elias, Leon-Bennet, Luca & Lino"
       ],
       shortSummary:
-        "Großmutter von Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer. Ehefrau von Großvater Gerd Krügermeyer sowie Mutter von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln). Lebte mit Großvater Gerd im Raum Bremen / Hambergen bei Bremen; gemeinsam besaßen sie zudem ein Haus auf Mallorca und auf Formentera.",
+        "Großmutter von Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer. Ehefrau von Großvater Gerd Krügermeyer sowie Mutter von Aike-Kristian Krügermeyer (* in Hannover) und Lars Krügermeyer (* in Köln). Lebte mit Großvater Gerd im Raum Bremen / Hambergen bei Bremen; gemeinsam besaßen sie zudem ein Haus auf Mallorca und auf Formentera.",
       biography: `
-        <p><strong>Vera-Theresia Krügermeyer</strong> ist die <strong>Großmutter (Oma)</strong> von Noah-Elias, Leon-Bennet, Luca und Lino Valentino Krügermeyer sowie die Ehefrau von Großvater <strong>Gerd Krügermeyer</strong>.</p>
+        <p><strong>Vera-Theresia Krügermeyer</strong> ist die <strong>Großmutter (Oma)</strong> von Noah-Elias, Leon-Bennet, Luca und Lino Krügermeyer sowie die Ehefrau von Großvater <strong>Gerd Krügermeyer</strong>.</p>
         <p>Gemeinsam mit Gerd Krügermeyer ist sie die Mutter der beiden Söhne <strong>Aike-Kristian Krügermeyer</strong> (geboren in Hannover) und <strong>Lars Krügermeyer</strong> (geboren in Köln). In den deutschen Telefonverzeichnissen (2001 und 2003) ist sie gemeinsam mit ihrem Ehemann Gerd Krügermeyer in <strong>Hambergen bei Bremen</strong> verzeichnet.</p>
         <p>Darüber hinaus hatten Großmutter Vera-Theresia und Großvater Gerd Krügermeyer ein Haus auf <strong>Mallorca</strong> und ein Haus auf der Nachbarinsel <strong>Formentera</strong>. Aus diesem Grund findet sich ihr Eintrag (als <em>„Vera Krugermeyer“</em>) zwischen <strong>1999 und 2006</strong> auch im spanischen Telefonverzeichnis der Balearen (<em>1999: Es Pujols, Baleares; 2001–2003: Sant Francesc de Formentera; 2004–2006: Pujols</em>).</p>
       `,
@@ -2106,14 +2106,14 @@ window.KRUEGERMEYER_DATA = {
         "* in Köln",
         "Onkel von Noah-Elias & Leon-Bennet",
         "⚭ Jasmin Krügermeyer",
-        "Vater von Luca & Lino Valentino",
+        "Vater von Luca & Lino",
         "Sohn von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Onkel von Noah-Elias und Leon-Bennet Krügermeyer (* in Köln). Sohn von Gerd und Vera-Theresia Krügermeyer, Bruder von Aike-Kristian Krügermeyer (* in Hannover), verheiratet mit Jasmin Krügermeyer und Vater der beiden in Bremen geborenen Söhne Luca Krügermeyer und Lino Valentino Krügermeyer.",
+        "Onkel von Noah-Elias und Leon-Bennet Krügermeyer (* in Köln). Sohn von Gerd und Vera-Theresia Krügermeyer, Bruder von Aike-Kristian Krügermeyer (* in Hannover), verheiratet mit Jasmin Krügermeyer und Vater der beiden in Bremen geborenen Söhne Luca Krügermeyer und Lino Krügermeyer.",
       biography: `
         <p><strong>Lars Krügermeyer</strong> wurde in <strong>Köln</strong> als Sohn von <strong>Gerd Krügermeyer</strong> und <strong>Vera-Theresia Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover), Enkel von Herbert Gustav und Christel Krügermeyer sowie Onkel von Noah-Elias und Leon-Bennet Krügermeyer.</p>
-        <p>Er ist verheiratet mit <strong>Jasmin Krügermeyer</strong>. Gemeinsam haben sie zwei Söhne, die beide in <strong>Bremen</strong> geboren wurden: <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong>.</p>
+        <p>Er ist verheiratet mit <strong>Jasmin Krügermeyer</strong>. Gemeinsam haben sie zwei Söhne, die beide in <strong>Bremen</strong> geboren wurden: <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong>.</p>
       `,
       events: [
         {
@@ -2124,16 +2124,16 @@ window.KRUEGERMEYER_DATA = {
         },
         {
           date: "Ehe & Familie in Bremen",
-          title: "Ehe mit Jasmin Krügermeyer & Geburt der Söhne Luca und Lino Valentino",
+          title: "Ehe mit Jasmin Krügermeyer & Geburt der Söhne Luca und Lino",
           place: "Bremen",
-          description: "Vater von Luca Krügermeyer und Lino Valentino Krügermeyer (beide * in Bremen)."
+          description: "Vater von Luca Krügermeyer und Lino Krügermeyer (beide * in Bremen)."
         }
       ],
       sources: [
         {
           type: "Direkte Familienchronik",
           title: "Stammlinie Krügermeyer",
-          detail: "Lars Krügermeyer (* in Köln), Sohn von Gerd und Vera-Theresia Krügermeyer, Ehemann von Jasmin Krügermeyer, Vater von Luca und Lino Valentino Krügermeyer."
+          detail: "Lars Krügermeyer (* in Köln), Sohn von Gerd und Vera-Theresia Krügermeyer, Ehemann von Jasmin Krügermeyer, Vater von Luca und Lino Krügermeyer."
         }
       ]
     },
@@ -2150,26 +2150,26 @@ window.KRUEGERMEYER_DATA = {
       tags: [
         "Tante von Noah-Elias & Leon-Bennet",
         "⚭ Lars Krügermeyer",
-        "Mutter von Luca & Lino Valentino"
+        "Mutter von Luca & Lino"
       ],
       shortSummary:
-        "Ehefrau von Onkel Lars Krügermeyer, Mutter der beiden in Bremen geborenen Söhne Luca Krügermeyer und Lino Valentino Krügermeyer sowie Tante von Noah-Elias und Leon-Bennet Krügermeyer.",
+        "Ehefrau von Onkel Lars Krügermeyer, Mutter der beiden in Bremen geborenen Söhne Luca Krügermeyer und Lino Krügermeyer sowie Tante von Noah-Elias und Leon-Bennet Krügermeyer.",
       biography: `
-        <p><strong>Jasmin Krügermeyer</strong> ist verheiratet mit <strong>Lars Krügermeyer</strong> und die <strong>Mutter</strong> der beiden in Bremen geborenen Söhne <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (den Cousins von Noah-Elias und Leon-Bennet Krügermeyer).</p>
+        <p><strong>Jasmin Krügermeyer</strong> ist verheiratet mit <strong>Lars Krügermeyer</strong> und die <strong>Mutter</strong> der beiden in Bremen geborenen Söhne <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong> (den Cousins von Noah-Elias und Leon-Bennet Krügermeyer).</p>
       `,
       events: [
         {
           date: "Ehe & Familie in Bremen",
-          title: "Ehe mit Lars Krügermeyer & Geburt der Söhne Luca und Lino Valentino",
+          title: "Ehe mit Lars Krügermeyer & Geburt der Söhne Luca und Lino",
           place: "Bremen",
-          description: "Mutter von Luca Krügermeyer und Lino Valentino Krügermeyer."
+          description: "Mutter von Luca Krügermeyer und Lino Krügermeyer."
         }
       ],
       sources: [
         {
           type: "Direkte Familienchronik",
           title: "Stammlinie Krügermeyer",
-          detail: "Jasmin Krügermeyer, Ehefrau von Lars Krügermeyer und Mutter von Luca und Lino Valentino Krügermeyer."
+          detail: "Jasmin Krügermeyer, Ehefrau von Lars Krügermeyer und Mutter von Luca und Lino Krügermeyer."
         }
       ]
     },
@@ -2304,7 +2304,7 @@ window.KRUEGERMEYER_DATA = {
       ]
     },
 
-    // --- 7. GENERATION (Gegenwart in Bremen: Noah-Elias, Bruder Leon-Bennet & Cousins Luca und Lino Valentino) ---
+    // --- 7. GENERATION (Gegenwart in Bremen: Noah-Elias, Bruder Leon-Bennet & Cousins Luca und Lino) ---
     {
       id: "noah-elias-kruegermeyer",
       firstName: "Noah-Elias",
@@ -2322,16 +2322,16 @@ window.KRUEGERMEYER_DATA = {
         "Bruder von Leon-Bennet",
         "Sohn von Aike-Kristian & Claudia",
         "Stiefsohn von Lidia Krügermeyer",
-        "Cousin von Luca & Lino Valentino",
+        "Cousin von Luca & Lino",
         "Enkel von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Geboren in Bremen. Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Bruder von Leon-Bennet Krügermeyer (* in Bremen), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer, Enkel von Gerd und Vera-Theresia Krügermeyer sowie Urenkel von Herbert Gustav (1907–1998) und Christel Krügermeyer.",
+        "Geboren in Bremen. Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Bruder von Leon-Bennet Krügermeyer (* in Bremen), Cousin von Luca und Lino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer, Enkel von Gerd und Vera-Theresia Krügermeyer sowie Urenkel von Herbert Gustav (1907–1998) und Christel Krügermeyer.",
       biography: `
-        <p><strong>Noah-Elias Krügermeyer</strong> wurde in der Hansestadt <strong>Bremen</strong> geboren – genau dort, wo bereits 1886 sein Ururgroßvater Ernst Simon Krügermeyer die Firma <em>„Ernst Krügermeyer & Co. Bremen“</em> gründete und wo 1907 sein Urgroßvater Herbert Gustav Krügermeyer zur Welt kam. Er bildet gemeinsam mit seinem Bruder <strong>Leon-Bennet Krügermeyer</strong> und seinen beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> die <strong>7. dokumentierte Generation</strong> unserer durchgehenden Stammlinie und hat dieses digitale Familienarchiv ins Leben gerufen.</p>
+        <p><strong>Noah-Elias Krügermeyer</strong> wurde in der Hansestadt <strong>Bremen</strong> geboren – genau dort, wo bereits 1886 sein Ururgroßvater Ernst Simon Krügermeyer die Firma <em>„Ernst Krügermeyer & Co. Bremen“</em> gründete und wo 1907 sein Urgroßvater Herbert Gustav Krügermeyer zur Welt kam. Er bildet gemeinsam mit seinem Bruder <strong>Leon-Bennet Krügermeyer</strong> und seinen beiden Cousins <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong> die <strong>7. dokumentierte Generation</strong> unserer durchgehenden Stammlinie und hat dieses digitale Familienarchiv ins Leben gerufen.</p>
         <p><strong>Seine direkte Stammreihe im Überblick:</strong></p>
         <ul>
-          <li><strong>Bruder & Cousins (7. Generation, alle * in Bremen):</strong> Bruder von <strong>Leon-Bennet Krügermeyer</strong> sowie Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong>.</li>
+          <li><strong>Bruder & Cousins (7. Generation, alle * in Bremen):</strong> Bruder von <strong>Leon-Bennet Krügermeyer</strong> sowie Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong>.</li>
           <li><strong>Eltern, Stiefmutter, Onkel & Tante (6. Generation):</strong> Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong>, Stiefsohn von <strong>Lidia Krügermeyer</strong> (* in Warschau) sowie Neffe von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong>.</li>
           <li><strong>Großeltern & Großonkel (5. Generation):</strong> Enkel von <strong>Gerd Krügermeyer</strong> und <strong>Vera-Theresia Krügermeyer</strong> (sowie Großneffe des Hamburger Meteorologen <strong>Dr. Lutz Krügermeyer</strong>).</li>
           <li><strong>Urgroßeltern (4. Generation):</strong> Urenkel von <strong>Herbert „Herbie“ Gustav Krügermeyer</strong> (* 06.11.1907 in Bremen als Zwillingsbruder von Ernst Otto, † 1998 in Bremen) und <strong>Frau Christel Krügermeyer</strong> (⚭ Nov. 1939 in Berlin-Prenzlauer Berg).</li>
@@ -2379,14 +2379,14 @@ window.KRUEGERMEYER_DATA = {
         "Bruder von Noah-Elias",
         "Sohn von Aike-Kristian & Claudia",
         "Stiefsohn von Lidia Krügermeyer",
-        "Cousin von Luca & Lino Valentino",
+        "Cousin von Luca & Lino",
         "Enkel von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Geboren in Bremen. Bruder von Noah-Elias Krügermeyer, Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Cousin von Luca und Lino Valentino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
+        "Geboren in Bremen. Bruder von Noah-Elias Krügermeyer, Sohn von Aike-Kristian Krügermeyer (* in Hannover) und Claudia Krügermeyer (geb. Hentschel), Stiefsohn von Lidia Krügermeyer (* in Warschau), Cousin von Luca und Lino Krügermeyer (* in Bremen), Neffe von Lars und Jasmin Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
       biography: `
         <p><strong>Leon-Bennet Krügermeyer</strong> wurde wie sein Bruder <strong>Noah-Elias Krügermeyer</strong> in <strong>Bremen</strong> geboren. Er ist der Sohn von <strong>Aike-Kristian Krügermeyer</strong> (* in Hannover) und <strong>Claudia Krügermeyer (geb. Hentschel)</strong> sowie der Stiefsohn von <strong>Lidia Krügermeyer</strong> (geboren in Warschau).</p>
-        <p>In der 7. dokumentierten Generation der Familie ist er der Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Valentino Krügermeyer</strong> (den Söhnen seines Onkels Lars Krügermeyer und seiner Tante Jasmin Krügermeyer), der Enkel von <strong>Gerd und Vera-Theresia Krügermeyer</strong>, der Urenkel von <strong>Herbert Gustav (1907–1998) und Christel Krügermeyer</strong> sowie der Ururenkel des Bremer Firmengründers <strong>Ernst Simon Krügermeyer (1859–1949)</strong>.</p>
+        <p>In der 7. dokumentierten Generation der Familie ist er der Cousin von <strong>Luca Krügermeyer</strong> und <strong>Lino Krügermeyer</strong> (den Söhnen seines Onkels Lars Krügermeyer und seiner Tante Jasmin Krügermeyer), der Enkel von <strong>Gerd und Vera-Theresia Krügermeyer</strong>, der Urenkel von <strong>Herbert Gustav (1907–1998) und Christel Krügermeyer</strong> sowie der Ururenkel des Bremer Firmengründers <strong>Ernst Simon Krügermeyer (1859–1949)</strong>.</p>
       `,
       events: [
         {
@@ -2419,14 +2419,14 @@ window.KRUEGERMEYER_DATA = {
         "* in Bremen",
         "7. Generation",
         "Sohn von Lars & Jasmin",
-        "Bruder von Lino Valentino",
+        "Bruder von Lino",
         "Cousin von Noah-Elias & Leon-Bennet",
         "Enkel von Gerd & Vera-Theresia"
       ],
       shortSummary:
-        "Geboren in Bremen. Sohn von Onkel Lars Krügermeyer (* in Köln) und Tante Jasmin Krügermeyer, Bruder von Lino Valentino Krügermeyer (* in Bremen), Cousin von Noah-Elias und Leon-Bennet Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
+        "Geboren in Bremen. Sohn von Onkel Lars Krügermeyer (* in Köln) und Tante Jasmin Krügermeyer, Bruder von Lino Krügermeyer (* in Bremen), Cousin von Noah-Elias und Leon-Bennet Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
       biography: `
-        <p><strong>Luca Krügermeyer</strong> wurde in <strong>Bremen</strong> als Sohn von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Lino Valentino Krügermeyer</strong> und der Cousin von <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
+        <p><strong>Luca Krügermeyer</strong> wurde in <strong>Bremen</strong> als Sohn von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Lino Krügermeyer</strong> und der Cousin von <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
         <p>Gemeinsam mit seinem Bruder und seinen beiden Cousins vertritt er die 7. dokumentierte Generation der Familie in Bremen als Enkel von <strong>Gerd und Vera-Theresia Krügermeyer</strong>, Urenkel von <strong>Herbert Gustav (1907–1998) und Christel Krügermeyer</strong> und Ururenkel von <strong>Ernst Simon Krügermeyer (1859–1949)</strong>.</p>
       `,
       events: [
@@ -2434,22 +2434,22 @@ window.KRUEGERMEYER_DATA = {
           date: "Geburt",
           title: "Geboren in Bremen als Sohn von Lars und Jasmin Krügermeyer",
           place: "Bremen",
-          description: "Bruder von Lino Valentino Krügermeyer; Cousin von Noah-Elias und Leon-Bennet Krügermeyer."
+          description: "Bruder von Lino Krügermeyer; Cousin von Noah-Elias und Leon-Bennet Krügermeyer."
         }
       ],
       sources: [
         {
           type: "Familienchronik Krügermeyer",
           title: "Direkte Stammlinie der 7. Generation in Bremen",
-          detail: "Luca Krügermeyer (* in Bremen), Sohn von Lars und Jasmin Krügermeyer, Bruder von Lino Valentino Krügermeyer."
+          detail: "Luca Krügermeyer (* in Bremen), Sohn von Lars und Jasmin Krügermeyer, Bruder von Lino Krügermeyer."
         }
       ]
     },
     {
-      id: "lino-valentino-kruegermeyer",
-      firstName: "Lino Valentino",
+      id: "lino-kruegermeyer",
+      firstName: "Lino",
       lastName: "Krügermeyer",
-      displayName: "Lino Valentino Krügermeyer (Cousin · 7. Generation)",
+      displayName: "Lino Krügermeyer (Cousin · 7. Generation)",
       gender: "male",
       generation: 7,
       branchId: "bremen",
@@ -2467,7 +2467,7 @@ window.KRUEGERMEYER_DATA = {
       shortSummary:
         "Geboren in Bremen. Sohn von Onkel Lars Krügermeyer (* in Köln) und Tante Jasmin Krügermeyer, Bruder von Luca Krügermeyer (* in Bremen), Cousin von Noah-Elias und Leon-Bennet Krügermeyer sowie Enkel von Gerd und Vera-Theresia Krügermeyer.",
       biography: `
-        <p><strong>Lino Valentino Krügermeyer</strong> wurde in <strong>Bremen</strong> als Sohn von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Luca Krügermeyer</strong> und der Cousin von <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
+        <p><strong>Lino Krügermeyer</strong> wurde in <strong>Bremen</strong> als Sohn von <strong>Lars Krügermeyer</strong> (* in Köln) und <strong>Jasmin Krügermeyer</strong> geboren. Er ist der Bruder von <strong>Luca Krügermeyer</strong> und der Cousin von <strong>Noah-Elias Krügermeyer</strong> und <strong>Leon-Bennet Krügermeyer</strong>.</p>
         <p>In der 7. dokumentierten Generation der Familie ist er der Enkel von <strong>Gerd und Vera-Theresia Krügermeyer</strong>, der Urenkel von <strong>Herbert Gustav (1907–1998) und Christel Krügermeyer</strong> sowie der Ururenkel des Bremer Firmengründers <strong>Ernst Simon Krügermeyer (1859–1949)</strong>.</p>
       `,
       events: [
@@ -2482,7 +2482,7 @@ window.KRUEGERMEYER_DATA = {
         {
           type: "Familienchronik Krügermeyer",
           title: "Direkte Stammlinie der 7. Generation in Bremen",
-          detail: "Lino Valentino Krügermeyer (* in Bremen), Sohn von Lars und Jasmin Krügermeyer, Bruder von Luca Krügermeyer."
+          detail: "Lino Krügermeyer (* in Bremen), Sohn von Lars und Jasmin Krügermeyer, Bruder von Luca Krügermeyer."
         }
       ]
     },
@@ -4773,7 +4773,7 @@ window.KRUEGERMEYER_DATA = {
       child: "vanessa-hecker-1971"
     },
 
-    // Generation 6 -> Generation 7 (Aike-Kristian & Claudia -> Noah-Elias & Leon-Bennet · Lars & Jasmin -> Luca & Lino Valentino)
+    // Generation 6 -> Generation 7 (Aike-Kristian & Claudia -> Noah-Elias & Leon-Bennet · Lars & Jasmin -> Luca & Lino)
     {
       type: "marriage",
       partner1: "aike-kristian-kruegermeyer-1970",
@@ -4815,7 +4815,7 @@ window.KRUEGERMEYER_DATA = {
     {
       type: "parent-child",
       parents: ["lars-kruegermeyer-1972", "jasmin-kruegermeyer"],
-      child: "lino-valentino-kruegermeyer"
+      child: "lino-kruegermeyer"
     },
 
     // =========================================================================
